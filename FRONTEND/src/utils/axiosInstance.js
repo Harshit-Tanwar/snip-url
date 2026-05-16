@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosInstance = axios.create({
-    baseURL:`https://urlshortner-gi0v.onrender.com`,
+    baseURL: import.meta.env.VITE_APP_URI,
     timeout:10000, //10s
     withCredentials:true
 })

@@ -25,14 +25,14 @@ const Navbar = () => {
                   Logout
                 </button>
               </div>
-            ) : (
+            ) : ( */}
               <Link
                 to="/auth"
                 className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium"
               >
                 Login
               </Link>
-            )} */}
+            {/* )} */}
           </div>
         </div>
       </div>

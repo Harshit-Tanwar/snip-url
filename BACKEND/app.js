@@ -16,7 +16,7 @@ dotenv.config("./.env")
 const app = express();
 
 app.use(cors({
-    origin: 'https://snip-url-weld.vercel.app', // your React app
+    origin: 'https://snip-url-weld.vercel.app/', // your React app
     credentials: true // 👈 this allows cookies to be sent
 }));
 
